@@ -1,0 +1,16 @@
+h1 {  
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.citati {
+  font-style: italic;
+  border: 1px solid #000;
+  padding: 6px;
+  font-weight: bold;
+  background-color: #FFFFCC;
+}
