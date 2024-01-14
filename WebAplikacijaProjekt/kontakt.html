@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Petar Habuda">
+  <title>Kontakt</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="logo"><i class='bx bx-stopwatch'></i>Pulsar</a>
+    <ul class="navlist">
+      <li><a href="o_nama.html">O nama</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <div class="h-main">
+      <a href="kupi.html" class="h-btn">Kupi</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <div class="bx bx-moon" id="darkmode"></div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Kontakt</h1>
+      <h4>Kontaktirajte nas</h4>
+      <div class="box">
+        <form action="form.json" id="form" method="post">
+          <label for="ime_prezime"></label>
+          <input type="text" id="ime_prezime" name="ime_prezime" placeholder="Ime i Prezime" class="box">
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="E-mail" class="box">
+          <label for="text_area"></label>
+          <textarea name="text_area" id="text_area" cols="53" rows="3" class="box"
+            placeholder="Napišite nešto..."></textarea>
+          <input type="submit" value="Pošalji" class="h-btn">
+        </form>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="img/hero.png" alt="hero">
+    </div>
+  </section>
+
+
+
+  <div class="down-arrow">
+    <i class='bx bx-down-arrow-alt'></i>
+  </div>
+  <footer>Copyright &copy; Petar Habuda, <a href="https://github.com/phabuda98" target="_blank">Github</a> &amp;
+    Puslar.com. All rights reserved.</footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+  <script src="form.js"></script>
+</body>
+
+</html>
