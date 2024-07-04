@@ -1,2 +1,2 @@
-# vvg-web-app
+# VVG 
 Repo za kolegij "Web aplikacije"
