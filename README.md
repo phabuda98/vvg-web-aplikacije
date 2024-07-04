@@ -1,2 +1,2 @@
 # VVG 
-Repo za kolegij "Web aplikacije"
+## Repo za kolegij "Web aplikacije"
